@@ -1,7 +1,7 @@
 deb_distro=bionic
 DISTRO=stable
 build_opts="-j 6"
-build_opts="${build_opts} O=/home/pi/build"
+build_opts="${build_opts} O=/home/cloud/build"
 build_opts="${build_opts} ARCH=arm"
 build_opts="${build_opts} KBUILD_DEBARCH=${DEBARCH}"
 build_opts="${build_opts} LOCALVERSION=-imx-r1"
